@@ -14,3 +14,8 @@ Found using the Chrome Dev Tools "Copy JS Path" option:
 ### SHA256
 
 `document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(1) > span > vt-ui-key-val-table").shadowRoot.querySelector("div > div > div:nth-child(3) > div > a:nth-child(2)").text.trim()`
+
+
+### Filename
+
+`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(5) > span > vt-ui-simple-expandable-list").shadowRoot.querySelector("ul > li > span:nth-child(3)").textContent.trim()`

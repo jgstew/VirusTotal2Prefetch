@@ -18,7 +18,7 @@ Found using the Chrome Dev Tools "Copy JS Path" option:
 
 ### Filename
 
-`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(5) > span > vt-ui-simple-expandable-list").shadowRoot.querySelector("ul > li > span:nth-child(3)").textContent.trim()`
+`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(5) > span > vt-ui-simple-expandable-list").shadowRoot.querySelector("ul > li:nth-child(1) > span:nth-child(3)").textContent.trim()`
 
 ### Size
 

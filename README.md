@@ -19,3 +19,7 @@ Found using the Chrome Dev Tools "Copy JS Path" option:
 ### Filename
 
 `document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(5) > span > vt-ui-simple-expandable-list").shadowRoot.querySelector("ul > li > span:nth-child(3)").textContent.trim()`
+
+### Size
+
+`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(1) > span > vt-ui-key-val-table").shadowRoot.querySelector("div > div > div:nth-child(7) > div > a:nth-child(2)").textContent.split('(')[1].split('bytes')[0].trim()`

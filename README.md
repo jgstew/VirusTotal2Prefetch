@@ -36,4 +36,4 @@ this should be improved to handle multiple comments with multiple URLs
 
 ### Put it all together:
 
-'prefetch ' +  + ' sha1:' +  + ' size:' +  + ' ' +  + ' sha256:' +
+`'prefetch ' +  + ' sha1:' +  + ' size:' +  + ' ' +  + ' sha256:' +`

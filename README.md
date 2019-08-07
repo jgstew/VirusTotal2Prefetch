@@ -2,3 +2,9 @@
 Based upon this: https://github.com/jgstew/tools/tree/master/JS/VirusTotal2Prefetch
 
 The idea is to take the results of a file analysis on VirusTotal and turn it into a BigFix Prefetch using JavaScript to scrape the page. (to be used in a bookmarklet or similar)
+
+
+
+### SHA1
+
+`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(1) > span > vt-ui-key-val-table").shadowRoot.querySelector("div > div > div:nth-child(2) > div > a:nth-child(2)").text`

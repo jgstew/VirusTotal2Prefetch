@@ -30,4 +30,5 @@ Found using the Chrome Dev Tools "Copy JS Path" option:
 
 **Apply RegEx:**  https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url
 
-`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#report").shadowRoot.querySelector("#community > vt-ui-main-generic-report-community-tab").shadowRoot.querySelector("vt-ui-expandable:nth-child(2) > span > vt-ui-comments-list").shadowRoot.querySelector("vt-ui-comment").shadowRoot.querySelector("#body").textContent.replace(/(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*))/, '$1')`
+`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#report").shadowRoot.querySelector("#community > vt-ui-main-generic-report-community-tab").shadowRoot.querySelector("vt-ui-expandable:nth-child(2) > span > vt-ui-comments-list").shadowRoot.querySelector("vt-ui-comment").shadowRoot.querySelector("#body").textContent.match(/(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*))/)[0] || "http_PUT_URL_HERE_"
+`

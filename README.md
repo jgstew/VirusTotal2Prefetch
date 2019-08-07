@@ -23,3 +23,7 @@ Found using the Chrome Dev Tools "Copy JS Path" option:
 ### Size
 
 `document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#details").shadowRoot.querySelector("div > vt-ui-expandable:nth-child(1) > span > vt-ui-key-val-table").shadowRoot.querySelector("div > div > div:nth-child(7) > div > a:nth-child(2)").textContent.split('(')[1].split('bytes')[0].trim()`
+
+### URL in Comment?
+
+`document.querySelector("body > vt-virustotal-app").shadowRoot.querySelector("#authChecker > file-view").shadowRoot.querySelector("#report").shadowRoot.querySelector("#community > vt-ui-main-generic-report-community-tab").shadowRoot.querySelector("vt-ui-expandable:nth-child(2) > span > vt-ui-comments-list").shadowRoot.querySelector("vt-ui-comment").shadowRoot.querySelector("#body").textContent.trim()`
